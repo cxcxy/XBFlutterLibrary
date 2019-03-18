@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D00AC223F8B3200C04364 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D00AB223F8B3200C04364 /* StringExt.swift */; };
 		0CBFAEC0C0CC0B57DF97BC17423F0016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		17DFEFED75E1E9FD247F2E1AB1C0E3DA /* Pods-XBFLutterLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E354E998F8FC733CDC9975711E564A50 /* Pods-XBFLutterLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28520E07774EE5DB47B5D7B43CC6E86D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */; };
@@ -37,15 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043D00AB223F8B3200C04364 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		08FFD524D86381E21E83C284613AC1C4 /* XBFLutterLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XBFLutterLibrary.modulemap; sourceTree = "<group>"; };
-		1324BD771D9401D611F8617914C37A0E /* XBFLutterLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XBFLutterLibrary.framework; path = XBFLutterLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324BD771D9401D611F8617914C37A0E /* XBFLutterLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XBFLutterLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FCF8D658E35960F79A948EFDB6A5D1 /* Pods-XBFLutterLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		20AFE831C02CF39B509D985FA618047A /* Pods_XBFLutterLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBFLutterLibrary_Tests.framework; path = "Pods-XBFLutterLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AFE831C02CF39B509D985FA618047A /* Pods_XBFLutterLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBFLutterLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE790340DB5609D29128486191264CF /* Pods-XBFLutterLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBFLutterLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		30DD77E33515522146BE6516F24035B0 /* Pods-XBFLutterLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		393CA675BA1EFC72B6BE0FCEAB6A6587 /* Pods-XBFLutterLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4684C5E829173042238C98ED0638E859 /* Pods-XBFLutterLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		46966C7650E550610A8489C34BB4F7FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46966C7650E550610A8489C34BB4F7FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DE2DA94AFEDB16965E21239C320C2EA /* Pods-XBFLutterLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBFLutterLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		607199EA5B896FD909F815E14C9DCB26 /* Pods-XBFLutterLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61A41A9935EC28B647131251D2C5CFA2 /* XBFLutterLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBFLutterLibrary-prefix.pch"; sourceTree = "<group>"; };
@@ -56,17 +58,17 @@
 		99C0B9F14EBDCFF2BF8908756D5F5690 /* Pods-XBFLutterLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XBFLutterLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9F687162BD92C44D552013A70BE21A58 /* XBFLutterLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBFLutterLibrary-umbrella.h"; sourceTree = "<group>"; };
 		A6D0118D951126A806CD0F7F86D423FB /* XBFLutterLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBFLutterLibrary.xcconfig; sourceTree = "<group>"; };
-		ABC2877D24CB0869F6D5830BDD943684 /* Pods_XBFLutterLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBFLutterLibrary_Example.framework; path = "Pods-XBFLutterLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABC2877D24CB0869F6D5830BDD943684 /* Pods_XBFLutterLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBFLutterLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B94965999AE9719848429E4A02BDAB0A /* Pods-XBFLutterLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD26BCA3ACD64CEB4DC92D3B29F34C0B /* Pods-XBFLutterLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBFLutterLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		C81ECD6298BD46EAA3D002C73862D1AC /* XBFLutterLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBFLutterLibrary-dummy.m"; sourceTree = "<group>"; };
 		C8F68A12EB8B0A7D26FB7A220179D63A /* Pods-XBFLutterLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBFLutterLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0E862605326353832D4FFA76F6966BF /* XBFLutterLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBFLutterLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0E862605326353832D4FFA76F6966BF /* XBFLutterLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XBFLutterLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E14DC251C6087F4947F134C94FE5699F /* Pods-XBFLutterLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBFLutterLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		E354E998F8FC733CDC9975711E564A50 /* Pods-XBFLutterLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBFLutterLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		EC31F0870D647878C5FB018DA1F182F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC31F0870D647878C5FB018DA1F182F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XBFLutterLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FDDBF71BB95185BCF74E8440FF5D9829 /* Pods-XBFLutterLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBFLutterLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 				FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */,
 				039E7CD45EA98DCF8E193CB1BA192AA8 /* Pod */,
 				BB0B6D663AECC255A477E9B0849A9C16 /* Support Files */,
+				043D00AB223F8B3200C04364 /* StringExt.swift */,
 			);
 			name = XBFLutterLibrary;
 			path = ../..;
@@ -315,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3B983CBEEB16DAC7B7082870983957B9 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D00AC223F8B3200C04364 /* StringExt.swift in Sources */,
 				CF43D1733FD6158E029D9155AEA4AD2D /* Pods-XBFLutterLibrary_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +448,7 @@
 			baseConfigurationReference = 15FCF8D658E35960F79A948EFDB6A5D1 /* Pods-XBFLutterLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,6 +471,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -618,8 +630,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -630,6 +641,7 @@
 			baseConfigurationReference = 82A93FDE3BACBFAF7A94C95E58476FCE /* Pods-XBFLutterLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -652,6 +664,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
