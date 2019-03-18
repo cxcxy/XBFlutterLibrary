@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XBFLutterLibrary_Example' do
+  pod 'XBFLutterLibrary', :path => '../'
+
+  target 'XBFLutterLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
