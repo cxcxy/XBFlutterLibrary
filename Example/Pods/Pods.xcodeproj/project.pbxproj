@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBFAEC0C0CC0B57DF97BC17423F0016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		17DFEFED75E1E9FD247F2E1AB1C0E3DA /* Pods-XBFLutterLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E354E998F8FC733CDC9975711E564A50 /* Pods-XBFLutterLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28520E07774EE5DB47B5D7B43CC6E86D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */; };
+		84616A0A655D6BEA2C48A34C3B9B4F54 /* XBFLutterLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81ECD6298BD46EAA3D002C73862D1AC /* XBFLutterLibrary-dummy.m */; };
+		CEC589D64BC1C5371D20A3850B3E049C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		CF43D1733FD6158E029D9155AEA4AD2D /* Pods-XBFLutterLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDBF71BB95185BCF74E8440FF5D9829 /* Pods-XBFLutterLibrary_Example-dummy.m */; };
+		D960C83783FB0B3F591FAA2F898120BA /* Pods-XBFLutterLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14DC251C6087F4947F134C94FE5699F /* Pods-XBFLutterLibrary_Tests-dummy.m */; };
+		DC780436FFF1AA4536086EBAB9829DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DDA293B41739577078CC80D9FA30E1C6 /* XBFLutterLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F687162BD92C44D552013A70BE21A58 /* XBFLutterLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65BFDC4D8F20507B8A658B960241BE9 /* Pods-XBFLutterLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE790340DB5609D29128486191264CF /* Pods-XBFLutterLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E77BA7193A00A47BEA1FA855E0C4F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B983CBEEB16DAC7B7082870983957B9;
+			remoteInfo = "Pods-XBFLutterLibrary_Example";
+		};
+		FDCA134E36AF6F49F2D98259CB08ED92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B9C6339A69CFEDC7180DDD6231046B;
+			remoteInfo = XBFLutterLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FFD524D86381E21E83C284613AC1C4 /* XBFLutterLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XBFLutterLibrary.modulemap; sourceTree = "<group>"; };
+		1324BD771D9401D611F8617914C37A0E /* XBFLutterLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XBFLutterLibrary.framework; path = XBFLutterLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FCF8D658E35960F79A948EFDB6A5D1 /* Pods-XBFLutterLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		20AFE831C02CF39B509D985FA618047A /* Pods_XBFLutterLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBFLutterLibrary_Tests.framework; path = "Pods-XBFLutterLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE790340DB5609D29128486191264CF /* Pods-XBFLutterLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBFLutterLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		30DD77E33515522146BE6516F24035B0 /* Pods-XBFLutterLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		393CA675BA1EFC72B6BE0FCEAB6A6587 /* Pods-XBFLutterLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4684C5E829173042238C98ED0638E859 /* Pods-XBFLutterLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		46966C7650E550610A8489C34BB4F7FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4DE2DA94AFEDB16965E21239C320C2EA /* Pods-XBFLutterLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBFLutterLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		607199EA5B896FD909F815E14C9DCB26 /* Pods-XBFLutterLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A41A9935EC28B647131251D2C5CFA2 /* XBFLutterLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBFLutterLibrary-prefix.pch"; sourceTree = "<group>"; };
+		75A6DFA1BE21543B328C16593872F04F /* Pods-XBFLutterLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82A93FDE3BACBFAF7A94C95E58476FCE /* Pods-XBFLutterLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBFLutterLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8819D628FEA9FFFE1356CC0B4E11F698 /* XBFLutterLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XBFLutterLibrary-Info.plist"; sourceTree = "<group>"; };
+		994FD4875687756F6FF73E30A8DF422A /* Pods-XBFLutterLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBFLutterLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99C0B9F14EBDCFF2BF8908756D5F5690 /* Pods-XBFLutterLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XBFLutterLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F687162BD92C44D552013A70BE21A58 /* XBFLutterLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBFLutterLibrary-umbrella.h"; sourceTree = "<group>"; };
+		A6D0118D951126A806CD0F7F86D423FB /* XBFLutterLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBFLutterLibrary.xcconfig; sourceTree = "<group>"; };
+		ABC2877D24CB0869F6D5830BDD943684 /* Pods_XBFLutterLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBFLutterLibrary_Example.framework; path = "Pods-XBFLutterLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B94965999AE9719848429E4A02BDAB0A /* Pods-XBFLutterLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBFLutterLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD26BCA3ACD64CEB4DC92D3B29F34C0B /* Pods-XBFLutterLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBFLutterLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		C81ECD6298BD46EAA3D002C73862D1AC /* XBFLutterLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBFLutterLibrary-dummy.m"; sourceTree = "<group>"; };
+		C8F68A12EB8B0A7D26FB7A220179D63A /* Pods-XBFLutterLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBFLutterLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0E862605326353832D4FFA76F6966BF /* XBFLutterLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBFLutterLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E14DC251C6087F4947F134C94FE5699F /* Pods-XBFLutterLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBFLutterLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		E354E998F8FC733CDC9975711E564A50 /* Pods-XBFLutterLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBFLutterLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		EC31F0870D647878C5FB018DA1F182F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XBFLutterLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FDDBF71BB95185BCF74E8440FF5D9829 /* Pods-XBFLutterLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBFLutterLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51CBB986451A036767926ED2B46A507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBFAEC0C0CC0B57DF97BC17423F0016 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8D11C2E785F74E2DA352DB8A13FCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC780436FFF1AA4536086EBAB9829DAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31AB42E1D01ED1CA7D7FA7ED9AE041D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC589D64BC1C5371D20A3850B3E049C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039E7CD45EA98DCF8E193CB1BA192AA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EC31F0870D647878C5FB018DA1F182F7 /* LICENSE */,
+				46966C7650E550610A8489C34BB4F7FF /* README.md */,
+				D0E862605326353832D4FFA76F6966BF /* XBFLutterLibrary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		38006FD3811DC121879ADAF66FDD5FEE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD3D53350D383E3DA45FEE8F9CB907 /* XBFLutterLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4AFD3D53350D383E3DA45FEE8F9CB907 /* XBFLutterLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FC21B3410BA9B8A5534D8972D17808C6 /* ReplaceMe.swift */,
+				039E7CD45EA98DCF8E193CB1BA192AA8 /* Pod */,
+				BB0B6D663AECC255A477E9B0849A9C16 /* Support Files */,
+			);
+			name = XBFLutterLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6CFD878E079271E3CED59909DABBA6BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05FCBFEBFF03F05B3742AD36CBCF4E5 /* Pods-XBFLutterLibrary_Example */,
+				978C7DB4FBA0CC6A20A02C45A3D1E17C /* Pods-XBFLutterLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				38006FD3811DC121879ADAF66FDD5FEE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F5654EDA05B8C2F4DDBCF18882DD2ECC /* Products */,
+				6CFD878E079271E3CED59909DABBA6BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		978C7DB4FBA0CC6A20A02C45A3D1E17C /* Pods-XBFLutterLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2DA94AFEDB16965E21239C320C2EA /* Pods-XBFLutterLibrary_Tests.modulemap */,
+				C8F68A12EB8B0A7D26FB7A220179D63A /* Pods-XBFLutterLibrary_Tests-acknowledgements.markdown */,
+				393CA675BA1EFC72B6BE0FCEAB6A6587 /* Pods-XBFLutterLibrary_Tests-acknowledgements.plist */,
+				E14DC251C6087F4947F134C94FE5699F /* Pods-XBFLutterLibrary_Tests-dummy.m */,
+				30DD77E33515522146BE6516F24035B0 /* Pods-XBFLutterLibrary_Tests-Info.plist */,
+				2FE790340DB5609D29128486191264CF /* Pods-XBFLutterLibrary_Tests-umbrella.h */,
+				607199EA5B896FD909F815E14C9DCB26 /* Pods-XBFLutterLibrary_Tests.debug.xcconfig */,
+				75A6DFA1BE21543B328C16593872F04F /* Pods-XBFLutterLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-XBFLutterLibrary_Tests";
+			path = "Target Support Files/Pods-XBFLutterLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		BB0B6D663AECC255A477E9B0849A9C16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FFD524D86381E21E83C284613AC1C4 /* XBFLutterLibrary.modulemap */,
+				A6D0118D951126A806CD0F7F86D423FB /* XBFLutterLibrary.xcconfig */,
+				C81ECD6298BD46EAA3D002C73862D1AC /* XBFLutterLibrary-dummy.m */,
+				8819D628FEA9FFFE1356CC0B4E11F698 /* XBFLutterLibrary-Info.plist */,
+				61A41A9935EC28B647131251D2C5CFA2 /* XBFLutterLibrary-prefix.pch */,
+				9F687162BD92C44D552013A70BE21A58 /* XBFLutterLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XBFLutterLibrary";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05FCBFEBFF03F05B3742AD36CBCF4E5 /* Pods-XBFLutterLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD26BCA3ACD64CEB4DC92D3B29F34C0B /* Pods-XBFLutterLibrary_Example.modulemap */,
+				994FD4875687756F6FF73E30A8DF422A /* Pods-XBFLutterLibrary_Example-acknowledgements.markdown */,
+				B94965999AE9719848429E4A02BDAB0A /* Pods-XBFLutterLibrary_Example-acknowledgements.plist */,
+				FDDBF71BB95185BCF74E8440FF5D9829 /* Pods-XBFLutterLibrary_Example-dummy.m */,
+				99C0B9F14EBDCFF2BF8908756D5F5690 /* Pods-XBFLutterLibrary_Example-frameworks.sh */,
+				4684C5E829173042238C98ED0638E859 /* Pods-XBFLutterLibrary_Example-Info.plist */,
+				E354E998F8FC733CDC9975711E564A50 /* Pods-XBFLutterLibrary_Example-umbrella.h */,
+				15FCF8D658E35960F79A948EFDB6A5D1 /* Pods-XBFLutterLibrary_Example.debug.xcconfig */,
+				82A93FDE3BACBFAF7A94C95E58476FCE /* Pods-XBFLutterLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-XBFLutterLibrary_Example";
+			path = "Target Support Files/Pods-XBFLutterLibrary_Example";
+			sourceTree = "<group>";
+		};
+		F5654EDA05B8C2F4DDBCF18882DD2ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2877D24CB0869F6D5830BDD943684 /* Pods_XBFLutterLibrary_Example.framework */,
+				20AFE831C02CF39B509D985FA618047A /* Pods_XBFLutterLibrary_Tests.framework */,
+				1324BD771D9401D611F8617914C37A0E /* XBFLutterLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F6C514FE8C4ECEDE643F1C424CA1C84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DFEFED75E1E9FD247F2E1AB1C0E3DA /* Pods-XBFLutterLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E55A2956F21E974F99D3920D6767FBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA293B41739577078CC80D9FA30E1C6 /* XBFLutterLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97C56A4762846A17D81D8418657792E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65BFDC4D8F20507B8A658B960241BE9 /* Pods-XBFLutterLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B983CBEEB16DAC7B7082870983957B9 /* Pods-XBFLutterLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A94284CAE17F21DFDAB8191C9F51D6C /* Build configuration list for PBXNativeTarget "Pods-XBFLutterLibrary_Example" */;
+			buildPhases = (
+				6F6C514FE8C4ECEDE643F1C424CA1C84 /* Headers */,
+				6782AF7669E9AD4E35279F8AB7B899E2 /* Sources */,
+				C51CBB986451A036767926ED2B46A507 /* Frameworks */,
+				51826E017AFD2C65F7404C63F4C745AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5388F4C7787A89B11A34424425349023 /* PBXTargetDependency */,
+			);
+			name = "Pods-XBFLutterLibrary_Example";
+			productName = "Pods-XBFLutterLibrary_Example";
+			productReference = ABC2877D24CB0869F6D5830BDD943684 /* Pods_XBFLutterLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		473600992F9994E183D59BA9EDAA4533 /* Pods-XBFLutterLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB761535CE04DEF544CBDF6F0BAFC3A /* Build configuration list for PBXNativeTarget "Pods-XBFLutterLibrary_Tests" */;
+			buildPhases = (
+				B97C56A4762846A17D81D8418657792E /* Headers */,
+				410E301D1C9ECE19CEAD83B4C11CD43B /* Sources */,
+				CB8D11C2E785F74E2DA352DB8A13FCE1 /* Frameworks */,
+				22CC0BD901712251C5FA6BF2C91A02F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F4E205A073968F149DC0D11FCF1E26 /* PBXTargetDependency */,
+			);
+			name = "Pods-XBFLutterLibrary_Tests";
+			productName = "Pods-XBFLutterLibrary_Tests";
+			productReference = 20AFE831C02CF39B509D985FA618047A /* Pods_XBFLutterLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50B9C6339A69CFEDC7180DDD6231046B /* XBFLutterLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F43BBF23D0CB5F2A968243D88EC553 /* Build configuration list for PBXNativeTarget "XBFLutterLibrary" */;
+			buildPhases = (
+				7E55A2956F21E974F99D3920D6767FBF /* Headers */,
+				4D2E425B45D264C2806EC2D594E5A995 /* Sources */,
+				D31AB42E1D01ED1CA7D7FA7ED9AE041D /* Frameworks */,
+				5695E35DE02C6A4B4A0BA4A6D106DB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBFLutterLibrary;
+			productName = XBFLutterLibrary;
+			productReference = 1324BD771D9401D611F8617914C37A0E /* XBFLutterLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5654EDA05B8C2F4DDBCF18882DD2ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B983CBEEB16DAC7B7082870983957B9 /* Pods-XBFLutterLibrary_Example */,
+				473600992F9994E183D59BA9EDAA4533 /* Pods-XBFLutterLibrary_Tests */,
+				50B9C6339A69CFEDC7180DDD6231046B /* XBFLutterLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CC0BD901712251C5FA6BF2C91A02F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51826E017AFD2C65F7404C63F4C745AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695E35DE02C6A4B4A0BA4A6D106DB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410E301D1C9ECE19CEAD83B4C11CD43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960C83783FB0B3F591FAA2F898120BA /* Pods-XBFLutterLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2E425B45D264C2806EC2D594E5A995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28520E07774EE5DB47B5D7B43CC6E86D /* ReplaceMe.swift in Sources */,
+				84616A0A655D6BEA2C48A34C3B9B4F54 /* XBFLutterLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6782AF7669E9AD4E35279F8AB7B899E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43D1733FD6158E029D9155AEA4AD2D /* Pods-XBFLutterLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5388F4C7787A89B11A34424425349023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XBFLutterLibrary;
+			target = 50B9C6339A69CFEDC7180DDD6231046B /* XBFLutterLibrary */;
+			targetProxy = FDCA134E36AF6F49F2D98259CB08ED92 /* PBXContainerItemProxy */;
+		};
+		91F4E205A073968F149DC0D11FCF1E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XBFLutterLibrary_Example";
+			target = 3B983CBEEB16DAC7B7082870983957B9 /* Pods-XBFLutterLibrary_Example */;
+			targetProxy = 0E77BA7193A00A47BEA1FA855E0C4F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29C598E6A17A699ED988831DC0B99ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D0118D951126A806CD0F7F86D423FB /* XBFLutterLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary.modulemap";
+				PRODUCT_MODULE_NAME = XBFLutterLibrary;
+				PRODUCT_NAME = XBFLutterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4821990731AFD7F8C81E11CE3B1A6084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FCF8D658E35960F79A948EFDB6A5D1 /* Pods-XBFLutterLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XBFLutterLibrary_Example/Pods-XBFLutterLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XBFLutterLibrary_Example/Pods-XBFLutterLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		507A576045845BEF86AD682B95AEA69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A6DFA1BE21543B328C16593872F04F /* Pods-XBFLutterLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XBFLutterLibrary_Tests/Pods-XBFLutterLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XBFLutterLibrary_Tests/Pods-XBFLutterLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7AEF3C7E716A3F9A260FDAF6DFA03271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A93FDE3BACBFAF7A94C95E58476FCE /* Pods-XBFLutterLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XBFLutterLibrary_Example/Pods-XBFLutterLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XBFLutterLibrary_Example/Pods-XBFLutterLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6A21FC1BC77C6F1FFF1BED8CCC96231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D0118D951126A806CD0F7F86D423FB /* XBFLutterLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XBFLutterLibrary/XBFLutterLibrary.modulemap";
+				PRODUCT_MODULE_NAME = XBFLutterLibrary;
+				PRODUCT_NAME = XBFLutterLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4689B247C0DCD38C62C864D00E03E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607199EA5B896FD909F815E14C9DCB26 /* Pods-XBFLutterLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XBFLutterLibrary_Tests/Pods-XBFLutterLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XBFLutterLibrary_Tests/Pods-XBFLutterLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A94284CAE17F21DFDAB8191C9F51D6C /* Build configuration list for PBXNativeTarget "Pods-XBFLutterLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4821990731AFD7F8C81E11CE3B1A6084 /* Debug */,
+				7AEF3C7E716A3F9A260FDAF6DFA03271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB761535CE04DEF544CBDF6F0BAFC3A /* Build configuration list for PBXNativeTarget "Pods-XBFLutterLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4689B247C0DCD38C62C864D00E03E01 /* Debug */,
+				507A576045845BEF86AD682B95AEA69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F43BBF23D0CB5F2A968243D88EC553 /* Build configuration list for PBXNativeTarget "XBFLutterLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C598E6A17A699ED988831DC0B99ACD /* Debug */,
+				B6A21FC1BC77C6F1FFF1BED8CCC96231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

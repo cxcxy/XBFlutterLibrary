@@ -1,0 +1,16 @@
+PODS:
+  - XBFLutterLibrary (0.1.0)
+
+DEPENDENCIES:
+  - XBFLutterLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  XBFLutterLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBFLutterLibrary: 789b8e792ef75f9efdafa310e037f0d4b0c0db1e
+
+PODFILE CHECKSUM: 61a16ddef54b85d0034bf0b8edf1fe9afb9a20ec
+
+COCOAPODS: 1.6.0.beta.2

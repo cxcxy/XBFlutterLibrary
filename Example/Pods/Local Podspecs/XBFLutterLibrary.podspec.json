@@ -1,0 +1,22 @@
+{
+  "name": "XBFLutterLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of XBFLutterLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/897939354@qq.com/XBFLutterLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "897939354@qq.com": "897939354@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/897939354@qq.com/XBFLutterLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XBFLutterLibrary/Classes/**/*"
+}

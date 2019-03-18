@@ -1,0 +1,6 @@
+framework module XBFLutterLibrary {
+  umbrella header "XBFLutterLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
